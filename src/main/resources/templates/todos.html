@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Todo List</title>
+</head>
+<body>
+    <h1>My Todo List</h1>
+    <ul>
+        <li th:each="todo : ${todos}">
+            <form th:action="@{/web/todos/{id}/complete(id=${todo.id})}" method="post">
+                <input type="checkbox" name="completed" th:checked="${todo.completed}" onchange="this.form.submit()"/>
+                <span th:text="${todo.task}"></span>
+            </form>
+        </li>
+    </ul>
+</body>
+</html>
