@@ -295,3 +295,35 @@ Identify and stop the process that's listening on port 8089 or configure this ap
 2025-07-15T22:35:38.615+08:00  INFO 16376 --- [springtest] [RMI TCP Connection(30)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-07-15T22:35:38.617+08:00  INFO 16376 --- [springtest] [RMI TCP Connection(30)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2025-07-15T22:35:38.623+08:00  INFO 16376 --- [springtest] [RMI TCP Connection(30)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-15T22:35:41.248+08:00  INFO 11496 --- [springtest] [main] com.example.demo.SpringtestApplication   : Starting SpringtestApplication using Java 17.0.12 with PID 11496 (C:\Users\user\eclipse-workspace\react-todolist\target\classes started by user in C:\Users\user\eclipse-workspace\react-todolist)
+2025-07-15T22:35:41.251+08:00  INFO 11496 --- [springtest] [main] com.example.demo.SpringtestApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-07-15T22:35:41.915+08:00  INFO 11496 --- [springtest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-15T22:35:41.974+08:00  INFO 11496 --- [springtest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interface.
+2025-07-15T22:35:42.636+08:00  INFO 11496 --- [springtest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8089 (http)
+2025-07-15T22:35:42.652+08:00  INFO 11496 --- [springtest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-15T22:35:42.652+08:00  INFO 11496 --- [springtest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-15T22:35:42.706+08:00  INFO 11496 --- [springtest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-15T22:35:42.707+08:00  INFO 11496 --- [springtest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1404 ms
+2025-07-15T22:35:42.920+08:00  INFO 11496 --- [springtest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-15T22:35:42.989+08:00  INFO 11496 --- [springtest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-07-15T22:35:43.029+08:00  INFO 11496 --- [springtest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-15T22:35:43.354+08:00  INFO 11496 --- [springtest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-15T22:35:43.390+08:00  INFO 11496 --- [springtest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-15T22:35:43.555+08:00  INFO 11496 --- [springtest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ffa7041
+2025-07-15T22:35:43.557+08:00  INFO 11496 --- [springtest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-15T22:35:43.651+08:00  INFO 11496 --- [springtest] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.34
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-15T22:35:44.503+08:00  INFO 11496 --- [springtest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-15T22:35:44.565+08:00  INFO 11496 --- [springtest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-15T22:35:44.978+08:00  INFO 11496 --- [springtest] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-07-15T22:35:45.456+08:00  INFO 11496 --- [springtest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8089 (http) with context path '/'
+2025-07-15T22:35:45.466+08:00  INFO 11496 --- [springtest] [main] com.example.demo.SpringtestApplication   : Started SpringtestApplication in 4.722 seconds (process running for 5.28)
+2025-07-15T22:35:55.100+08:00  INFO 11496 --- [springtest] [http-nio-8089-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-15T22:35:55.101+08:00  INFO 11496 --- [springtest] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-15T22:35:55.102+08:00  INFO 11496 --- [springtest] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
