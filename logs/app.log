@@ -327,3 +327,9 @@ Identify and stop the process that's listening on port 8089 or configure this ap
 2025-07-15T22:35:55.100+08:00  INFO 11496 --- [springtest] [http-nio-8089-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-07-15T22:35:55.101+08:00  INFO 11496 --- [springtest] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2025-07-15T22:35:55.102+08:00  INFO 11496 --- [springtest] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-15T23:39:12.590+08:00  INFO 11496 --- [springtest] [RMI TCP Connection(73)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-07-15T23:39:12.922+08:00  INFO 11496 --- [springtest] [RMI TCP Connection(73)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-15T23:39:13.121+08:00  INFO 11496 --- [springtest] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-15T23:39:13.184+08:00  INFO 11496 --- [springtest] [RMI TCP Connection(73)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-15T23:39:13.272+08:00  INFO 11496 --- [springtest] [RMI TCP Connection(73)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-15T23:39:13.295+08:00  INFO 11496 --- [springtest] [RMI TCP Connection(73)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
