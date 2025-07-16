@@ -1,6 +1,6 @@
 package com.example.demo.controller;
 
-import com.example.demo.model.Todo;
+import com.example.demo.model.entity.Todo;
 import com.example.demo.repository.TodoRepository;
 
 import java.util.List;
