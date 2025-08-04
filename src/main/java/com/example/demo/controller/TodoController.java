@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("react/todos")
+@RequestMapping("react/todoss")
 @CrossOrigin(origins = "http://localhost:5173")
 public class TodoController {
 
